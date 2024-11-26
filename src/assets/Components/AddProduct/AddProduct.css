@@ -1,0 +1,92 @@
+.addProductTitle {
+  margin-top: 30px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #01311F;
+  font-size: 40px;
+}
+
+.addProductForm {
+  margin: 0 auto;
+  margin-top: 1%;
+  width: 60%;
+  max-width: 800px; /* Prevents the form from becoming too wide */
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  padding-left: 4%;
+  box-sizing: border-box;
+}
+
+.gridFields {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.availabilitySelect, .categorySelect, .brandInput, .nameInput, .priceInput, .quantityInput {
+  width: 100%;
+  max-width: 250px; /* Ensures a consistent max width on normal screens */
+  height: 40px;
+
+  border: 2px solid black;
+  margin-top: 5px; /* Space between label and input */
+}
+
+.descriptionInput {
+  height: 100px;
+  width: 100%;
+  max-width: 650px;
+  border: 2px solid black;
+  margin-top: 5px; /* Space between label and input */
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.submitDivAddProduct {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submitAddProduct {
+  height: 40px;
+  width: 200px;
+  color: white;
+  background-color: black;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .addProductForm {
+    width: 90%;
+    padding: 5%;
+  }
+  
+  .gridFields {
+    grid-template-columns: 1fr; /* Switches to a single column */
+    gap: 15px;
+  }
+
+  .availabilitySelect, .categorySelect, .brandInput, .nameInput, .priceInput, .quantityInput, .descriptionInput {
+    max-width: 100%; /* Takes up the entire width of the container */
+    margin-left: 0;
+  }
+  
+  .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
+    padding: 5px;
+    justify-content: center;
+  }
+}

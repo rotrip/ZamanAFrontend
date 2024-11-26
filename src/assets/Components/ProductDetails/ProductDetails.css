@@ -1,0 +1,39 @@
+
+.PDisplay{
+  margin: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.PImage{
+  height: 60vh;
+  width: 30vw;
+  border: 2px solid black;
+}
+.PInfo{
+  margin: 1vw;
+  font-size: 40px;
+  margin-left: 5vw;
+
+}
+.addToCart{
+  margin-top: 100px;
+  height: 50px;
+  width: 180px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.buynow{
+  margin-top: 100px;
+  height: 50px;
+  width: 180px;
+  margin-left: 40px ;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.secondInfo{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  font-size: 20px;
+}

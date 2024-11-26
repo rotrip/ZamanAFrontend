@@ -1,0 +1,74 @@
+.headerFull {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 35px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.zamana {
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.userNameHeader {
+  position: absolute;
+  right: 3%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+
+}
+
+.loggedInUser {
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+.dropdown {
+  position: absolute;
+  background-color: #333;
+  color: white;
+  top:100%;
+  width: 180%;
+  text-align: center;
+  border: 2px solid black;
+  left:0;
+
+}
+
+
+.dropdownItem {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+
+}
+
+.dropdownItem:hover {
+  background-color: black;
+  color: white;
+}
+
+.userIcon{
+  color: white;
+}
+
+.cartSymbol:hover{
+  cursor: pointer;
+}

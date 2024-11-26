@@ -1,0 +1,135 @@
+.Register-Form{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  align-items: center;
+  padding: 0px;
+  padding-bottom: 30px;
+  margin-left: 30%;
+  margin-right: 30%
+}
+.Register{
+  margin-top: 30px;
+  font-weight: 500;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #01311F;;
+  font-size: 40px;
+}
+input{
+  width: 60%;
+  margin-top: 30px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: #01311F;
+  font-style: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+
+}
+.submit{
+  background-color: #01311F;
+  align-items: center;
+  border: 1px solid #01311F;;
+  color: #C6AA58;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.para-Register{
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .Register-Form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #0e4c49;
+    align-items: center;
+    padding: 0px;
+    padding-bottom: 30px;
+    margin-left: 2%;
+    margin-right: 2%
+  }
+  .Register{
+    margin-top: 30px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #01311F;;
+    font-size: 40px;
+  }
+  input{
+    width: 90%;
+    margin-top: 30px;
+    height: 35px;
+    border: 2px solid #01311F;
+    border-radius: 5px;
+    background-color: #C6AA58;
+    color: #01311F;
+    font-style: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  
+  }
+  .submit{
+    background-color: #01311F;
+    align-items: center;
+    border: 1px solid #01311F;;
+    color: #C6AA58;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  .para-Register{
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .Register-Form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #0e4c49;
+    align-items: center;
+    padding: 0px;
+    padding-bottom: 30px;
+    margin-left: 2%;
+    margin-right: 2%
+  }
+  .Register{
+    margin-top: 30px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #01311F;;
+    font-size: 40px;
+  }
+  input{
+    width: 70%;
+    margin-top: 30px;
+    height: 35px;
+    border: 2px solid #01311F;
+    border-radius: 5px;
+    background-color: #C6AA58;
+    color: #01311F;
+    font-style: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  
+  }
+  .submit{
+    background-color: #01311F;
+    align-items: center;
+    border: 1px solid #01311F;;
+    color: #C6AA58;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  .para-Register{
+    margin-top: 15px;
+  }
+}

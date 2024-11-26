@@ -1,0 +1,99 @@
+.Cart{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  margin: 100px;
+
+}
+
+.cartItemsDispay{
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 100px;
+  gap:10px;
+
+}
+
+.CDisplay{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  
+}
+.CImage{
+  height: 200px;
+  flex:2;
+  
+}
+.CInfo{
+  flex:4;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+margin-top: 35px;
+
+}
+
+.CMainInfo{
+  flex:3;
+}
+
+.CsecondInfo{
+  flex:2;
+}
+
+.Cpricing{
+  border: 1px solid black;
+  width: 40%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  height: 300px; 
+}
+
+
+.CpricingMain{
+  display: flex;
+  flex-direction: column;
+  flex:3;
+  gap: 10px;
+}
+
+.Cpricingsecond{
+  display: flex;
+  flex-direction: column;
+  flex:2;
+  justify-content: center;
+  align-items: center;
+}
+
+.PriceDetailsSpecific{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.PriceDetails{
+  text-decoration: underline;
+}
+.TotalAmount,.TotalAmountDollars{
+  margin-top: 15px;
+}
+
+.crossSymbol{
+  margin-right: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.placeOrder{
+  cursor: pointer;
+}
+
+.CNameLink{
+  text-decoration: None;
+  color: black;
+}
